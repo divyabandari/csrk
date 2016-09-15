@@ -6,11 +6,11 @@
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Poker League Webapp</name>
-	<url>http://github/autotools/</url>
+	<url>https://github.com/schituku/csrk.git</url>
 
 	<properties>
 		<final-name>pleague</final-name>
-		<webapp-directory>\Tomcat\apache-tomcat-7.0.39\webapps</webapp-directory>
+		<webapp-directory>C:\tomcat7\webapps</webapp-directory>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<compiler-plugin-version>3.1</compiler-plugin-version>
 		<war-plugin-version>2.3</war-plugin-version>
@@ -234,8 +234,5 @@
 			<artifactId>spring-security-aspects</artifactId>
 			<version>${spring-security-version}</version>
 		</dependency>
-
 	</dependencies>
-
-
 </project>

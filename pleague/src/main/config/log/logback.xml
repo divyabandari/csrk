@@ -3,11 +3,11 @@
 <configuration>
 	<jmxConfigurator />
 	<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>C:\logs\autotools.log</file>
+		<file>G:\logs\autotools.log</file>
 		<append>true</append>
 		   <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
       <!-- rollover daily -->
-      <fileNamePattern>C:logs\autotools-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+      <fileNamePattern>G:logs\autotools-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
       <timeBasedFileNamingAndTriggeringPolicy
             class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
         <!-- or whenever the file size reaches 100MB -->
@@ -23,11 +23,11 @@
 	</appender>
 
 	<appender name="CLASSFILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>C:\logs\autotoolsCode.log</file>
+		<file>G:\logs\autotoolsCode.log</file>
 		<append>true</append>
 		   <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
       <!-- rollover daily -->
-      <fileNamePattern>C:\logs\autotoolsCode-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+      <fileNamePattern>G:\logs\autotoolsCode-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
       <timeBasedFileNamingAndTriggeringPolicy
             class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
         <!-- or whenever the file size reaches 100MB -->
@@ -43,11 +43,11 @@
 	</appender>
 	
 	<appender name="HIBFILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-		<file>C:\logs\autotoolsHibernate.log</file>
+		<file>G:\logs\autotoolsHibernate.log</file>
 		<append>true</append>
 		   <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
       <!-- rollover daily -->
-      <fileNamePattern>C:\logs\autotoolsHibernate-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+      <fileNamePattern>G:\logs\autotoolsHibernate-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
       <timeBasedFileNamingAndTriggeringPolicy
             class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
         <!-- or whenever the file size reaches 100MB -->
